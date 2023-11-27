@@ -1,0 +1,27 @@
+{
+  "name": "full-sync-cli",
+  "version": "0.0.1",
+  "description": "Sync product feed to algolia",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/**/*.js",
+    "prettier": "prettier --write src/**/*.js",
+    "test": "jest --config jest.config.cjs"
+  },
+  "author": "James Luterek",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.20.0",
+    "dotenv": "^16.3.1",
+    "pino": "^8.16.2"
+  },
+  "type": "module"
+}
