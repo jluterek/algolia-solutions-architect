@@ -13,7 +13,6 @@ $menuLimit = 5; // Limit for menu items
 
 $facetForMenu = 'hierarchicalCategories.lvl0';
 try {
-    echo "GO!";
     $response = $index->search('', [
         'facets' => [$facetForMenu], // Facet for building server-rendered menu
     ]);
