@@ -1,0 +1,22 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "cd full-sync-cli && npm install && cd ../",
+      "name": "c"
+    },
+    {
+      "command": "cd website && composer install && cd ../",
+      "name": "c"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "cd website && php -S localhost:8000": {
+      "name": "cd website && php -S localhost:8000",
+      "command": "cd website && php -S localhost:8000",
+      "runAtStart": true
+    }
+  }
+}
