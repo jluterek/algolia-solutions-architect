@@ -1,0 +1,17 @@
+{
+    "name": "example/website",
+    "require": {
+        "algolia/algoliasearch-client-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\Website\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Luterek",
+            "email": "james.luterek@gmail.com"
+        }
+    ]
+}
